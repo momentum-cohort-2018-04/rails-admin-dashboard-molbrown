@@ -4,7 +4,7 @@
 [Freeshelf Repository](https://github.com/momentum-cohort-2018-04/rails-freeshelf-1-molbrown)
 
 I used Administrate to create an admin dashboard for my FreeShelf application. I wanted an admin user to be able to:
-- Easly navigate through Users, Books, Authors, and Checkouts with practical Index and Show pages.
+- Easily navigate through Users, Books, Authors, and Checkouts with practical Index and Show pages.
 - Make a new user by adding username and email.
 - Create a new book or author.
 - 'Checkout' a book for an existing user.
