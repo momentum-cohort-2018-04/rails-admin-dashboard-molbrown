@@ -1,10 +1,15 @@
 # Adding an Admin Dashboard
 
-Using either ActiveAdmin or Administrate, add an admin dashboard to any previous application you've built in class.
+[Deployed Dashboard](https://protected-inlet-29931.herokuapp.com/admin/)    
+[Freeshelf Repository](https://github.com/momentum-cohort-2018-04/rails-freeshelf-1-molbrown)
 
-The dashboard should let admin users manage the data of your application in a UI.
+I used Administrate to create an admin dashboard for my FreeShelf application. I wanted an admin user to be able to:
+- Easly navigate through Users, Books, Authors, and Checkouts with practical Index and Show pages.
+- Make a new user by adding username and email.
+- Create a new book or author.
+- 'Checkout' a book for an existing user.
+- Edit and Delete Books, Authors, Users, or Checkouts.
 
-For the first step of this assignment, design the admin dashboard. What do you want your admin users to be able to do?
-When you know what your project specs are, implement the dashboard.
+![Screenshot](/Screenshot.png)
 
-Your homework submission should be a README explaining what you decided to do, including a link to the project repo that you added the admin dashboard to. Please also include a screenshot of the admin dashboard main page to illustrate your README.
+Administrate is super neat, simple to customize, well-documented, and error messages are extremely informative. It required me to use aliases because of many model associations, and aliasing took some specific syntax. Once we figured that out, Administrate was fun and cool. I learned how to use [**strftime**](http://strftime.net/) for date objects.
