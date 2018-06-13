@@ -3,7 +3,7 @@
 [Deployed Dashboard](https://protected-inlet-29931.herokuapp.com/admin/)    
 [Freeshelf Repository](https://github.com/momentum-cohort-2018-04/rails-freeshelf-1-molbrown)
 
-I used Administrate to create an admin dashboard for my FreeShelf application. I wanted an admin user to be able to:
+I used [Administrate](https://github.com/thoughtbot/administrate) to create an admin dashboard for my FreeShelf application. I wanted an admin user to be able to:
 - Easily navigate through Users, Books, Authors, and Checkouts with practical Index and Show pages.
 - Make a new user by adding username and email.
 - Create a new book or author.
